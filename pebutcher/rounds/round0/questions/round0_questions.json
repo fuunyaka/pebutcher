@@ -1,0 +1,90 @@
+{
+  "round0": {
+    "question0": {
+      "variants": {
+        "variant0": "What is the IMAGE_DOS_HEADER.e_magic in ASCII?",
+        "variant1": "What is the numeric value of the IMAGE_DOS_HEADER.e_magic?"
+      },
+      "answers": {
+        "variant0": "mz",
+        "variant1": "0x5a4d"
+      }
+    },
+    "question1": {
+      "variants": {
+        "variant0": "How far into the binary is the IMAGE_NT_HEADERS structure?",
+        "variant1": "How far into the binary is the structure with the 'PE' signature?",
+        "variant2": "What is the IMAGE_DOS_HEADER.e_lfanew?",
+        "variant3": "What is the offset from the end of the IMAGE_DOS_HEADER to the IMAGE_NT_HEADERS?"
+      },
+      "answers": {
+        "variant0": "None",
+        "variant1": "None",
+        "variant2": "None",
+        "variant3": "None"
+      }
+    },
+    "question2": {
+      "variants": {
+        "variant0": "What year was this binary compiled according to the file header TimeDateStamp?",
+        "variant1": "What is the IMAGE_FILE_HEADER's TimeDateStamp?",
+        "variant2": "How many years old is this binary? (round down)"
+      },
+      "answers": {
+        "variant0": "None",
+        "variant1": "None",
+        "variant2": "None"
+      }
+    },
+    "question3": {
+      "variants": {
+        "variant0": "Is this a 32 bit or 64 bit binary? (Enter 32 or 64)",
+        "variant1": "Is this a PE32 or PE32+ binary? (Enter pe32 or pe32+)",
+        "variant2": "What is the IMAGE_FILE_HEADER.Machine field?",
+        "variant3": "What IMAGE_FILE_HEADER.Machine value indicates a 64 bit binary?",
+        "variant4": "What IMAGE_FILE_HEADER.Machine value indicates a 32 bit binary?"
+      },
+      "answers": {
+        "variant0": "None",
+        "variant1": "None",
+        "variant2": "None",
+        "variant3": "0x8664",
+        "variant4": "0x014c"
+      }
+    },
+    "question4": {
+      "variants": {
+        "variant0": "How many sections does this binary have?",
+        "variant1": "What is the IMAGE_FILE_HEADER.NumberOfSections field?"
+      },
+      "answers": {
+        "variant0": "None",
+        "variant1": "None"
+      }
+    },
+    "question5": {
+      "variants": {
+        "variant0": "Is the IMAGE_FILE_EXECUTABLE_IMAGE file header characteristic set? (Enter Y or N)",
+        "variant1": "Is this file a regular executable (.exe)? (Enter Y or N)",
+        "variant2": "Is the IMAGE_FILE_DLL file header characteristic set? (Enter Y or N)",
+        "variant3": "Is this file a dynamic-link library (.dll)? (Enter Y or N)",
+        "variant4": "Is the IMAGE_FILE_LARGE_ADDRESS_AWARE file header characteristic set? (Enter Y or N)",
+        "variant5": "Does this file support being loaded at an address > 2GB? (Enter Y or N)",
+        "variant6": "Is the IMAGE_FILE_32BIT_MACHINE file header characteristic set? (Enter Y or N)",
+        "variant7": "What is the IMAGE_FILE_HEADER.Characteristics field? ",
+        "variant8": "How many characteristics are set in this file's file header?"
+      },
+      "answers": {
+        "variant0": "None",
+        "variant1": "None",
+        "variant2": "None",
+        "variant3": "None",
+        "variant4": "None",
+        "variant5": "None",
+        "variant6": "None",
+        "variant7": "None",
+        "variant8": "None"
+      }
+    }
+  }
+}
